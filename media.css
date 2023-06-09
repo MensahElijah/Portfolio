@@ -1,0 +1,179 @@
+@media all and (max-width: 699px) and (min-width:520px), (min-width:1151px){
+    
+    .nava{
+        position: relative;
+      
+    }
+    
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: absolute; 
+        /* overflow: hidden; */
+        background-color: #38444d;
+        position: sticky;
+        top: 0; 
+        height: 80px;   
+    }
+    .go{
+        width: 10%;
+    }
+    .image{
+        height: 80px;
+        width: 80px;
+        border-radius: 30px;
+        padding: 10px;
+        object-fit: cover;
+    }
+    li{
+        float: right;
+        padding: 8px;
+        font-weight: 600;
+    }
+    li a, .dropbtn{
+        display: inline-block;
+        color: rgb(228, 245, 241);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover, .dropdown:hover 
+    .dropbtn{
+        background-color: #1c0000;;
+        border-radius: 4px;
+    }
+    li .dropdown{
+        display: inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: relative;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        
+    }
+    .dropdown-content a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 15px;    
+    }  
+    .dropdown-content a:hover{
+        background-color: #f1f1f1;  
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+/* Dividing two div side by side start */
+     .sidebar{
+        display: flex;
+        gap: 20px;
+        padding-right: 20px;
+        top: 80px;
+        position: fixed;
+    
+     }
+    .sidebar1{
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+        height: 100vh; 
+        width: 40%;
+        background-color: #38444d;
+        flex: 2;
+    }
+    .sidebars2{
+        /* padding-top: 10px;
+        background-color: red;
+        width: 115%;
+        padding: 10px; */
+        display: flex;
+        flex-direction: row;
+    }
+    .sidebarwrapper{
+        padding: 13px;
+        
+    }
+    h2{
+        color: #1c0000;
+        font-weight: 300;
+        margin: 10px;
+    }
+    .sidebarIcon{
+        padding: 5px;
+        color: rgb(45, 45, 45);
+        transition: width 0.4s ease-in-out;
+        cursor: pointer;
+        align-items: center;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .sidebarIcon> a{
+        text-decoration-line: none;
+        color: rgb(45, 45, 45);
+    }
+    .sidebarIcon.active, .sidebarIcon:hover{
+        background-color: rgb(247, 232, 144); 
+        margin: 2px; 
+    }
+    .icon{
+        margin-right: 5px;
+        padding: 10px;
+    }
+    
+    .sec{
+        margin-top: 8px;
+        height: 100%;
+        width: 108%;
+        background-color: #38444d;
+        display: flex;
+    }
+    span{
+        font-size: 18px;
+    }
+    .sec1{
+        background-color: #38444d;
+        margin: 10px;
+        color: rgb(184, 183, 183);
+        font-size: 30px;
+        font-weight: 400;
+        height: 84%;
+        cursor: pointer;
+    }
+    .sec1>p:hover{
+background-color: rgb(247, 232, 144);
+border-radius: 10px;
+color: black;
+    }
+    
+    .sec2>img{
+        padding: 10px;
+        width: 100%;
+        height: 88%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .resume{
+        padding: 45px;
+        justify-content: center;
+        border: black solid;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+    }
+    .resume:hover{
+        background-color: gold;
+        color: #1c0000;
+    }
+    /* Dividing two div side by side end */
+
+
+    
+     
+            
+}
